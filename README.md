@@ -13,6 +13,8 @@ low amount of users.
 __Python__: tested on 2.5.1, should work with newer versions of Python2 too
 __Sqlite3__: Used to store the messages
 __Python sqlite module__: This is part of Python suite itself.
+__[bbcode](https://pypi.python.org/pypi/bbcode)__: External module used to add
+support for some minor message formatting.
 __cgi__ capable web server
 
 
@@ -30,6 +32,7 @@ display. Feel free to write your own, but you can use this as a reference.
 *  Consider using a template engine for better control. Currently assumes 
    messages to be displayed inside a iframe, and does some assumptions on CSS
    file locations.
+*  Add some smilies ^_^
 
 ##Preview
 ![A preview image what it looks like on my site](./Preview.png)
